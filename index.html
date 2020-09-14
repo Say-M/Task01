@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 01</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row main-header">
+            <div class="col-3 title-header">
+                <h2><i class="fas fa-shopping-cart"></i> <span>Store</span></h2>
+            </div>
+            <div class="col-9 search-header">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search"
+                        aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+                        <span class="input-group-text"><i class="fas fa-filter"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid px-4">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="status-section row">
+                    <div class="col-md-3 left">
+                        <h3 class="title">Your Balance</h3>
+                        <h4 class="subtitle">e-Payment <i class="fas fa-filter"></i></h4>
+                        <h2>12, 158</h2>
+                        <span>in BDT</span>
+                        <h2>1,758</h2>
+                        <span>Today's Sale</span>
+                    </div>
+                    <div class="col-md-6 middle">
+                        <div class="order-list">
+                            <h3 class="title">Your order</h3>
+                            <h4 class="subtitle">Sort by Last Order <i class="ml-1 fas fa-sort-down"></i></h4>
+                        </div>
+                        <table class="table table-sm table-borderless order-table">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <td>ID Order</td>
+                                    <td>Item</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+                            <tbody class="table-body">
+                                <tr>
+                                    <td>1</td>
+                                    <td>Store123A</td>
+                                    <td>Item X</td>
+                                    <td>On Packing</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Store123D</td>
+                                    <td>Item X</td>
+                                    <td>Pending</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Store123C</td>
+                                    <td>Item Y</td>
+                                    <td>Arrived</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Store123A</td>
+                                    <td>Item X</td>
+                                    <td>Pending</td>
+                                </tr>
+                            </tbody>
+                            <tfoot class="table-footer  text-success">
+                                <tr>
+                                    <td colspan="2">Track Order</td>
+                                    <td colspan="2" class="text-right">Collections</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="col-md-3 right">
+                        <h4 class="text-right subtitle text-success">Monday, 20/04/2020</h4>
+                        <p class="sort-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores expedita,
+                            at
+                            nobis rerum
+                        </p>
+                        <div class="order-icon">
+                            <button class="btn btn-sm btn-success">Full Order Lists</button>
+                            <i class="fas fa-cart-plus"></i>
+                        </div>
+                        <p class="text-right subtitle mt-4">More <i class="ml-1 fas fa-sort-down"></i></p>
+                    </div>
+                </div>
+                <div class="product-secton row">
+                    <div class="col-md-7 pl-md-0">
+                        <div class="product-left">
+                            <h4 class="product-title">Products</h4>
+                            <div class="product-table-header">
+                                <div class="items-opt"><span class="active">All</span><span>Add</span></div>
+                                <div class="per-items">7 <i class="fas fa-sort-down"></i></div>
+                            </div>
+                            <table class="table table-sm product-table">
+                                <thead>
+                                    <tr>
+                                        <td>ID</td>
+                                        <td>Name</td>
+                                        <td>Category</td>
+                                        <td class="text-center">Price</td>
+                                        <td class="text-center">Stock</td>
+                                        <td class="text-center">Actions</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>123456</td>
+                                        <td class="text-info">Samsung Galaxy A3</td>
+                                        <td>Mobile</td>
+                                        <td class="text-center">10,000</td>
+                                        <td class="text-center">30</td>
+                                        <td class="text-center"><i class="far fa-edit"></i><i
+                                                class="fas fa-trash text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>123456</td>
+                                        <td class="text-info">Samsung Galaxy A3</td>
+                                        <td>Mobile</td>
+                                        <td class="text-center">10,000</td>
+                                        <td class="text-center">30</td>
+                                        <td class="text-center"><i class="far fa-edit"></i><i
+                                                class="fas fa-trash text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>123456</td>
+                                        <td class="text-info">Samsung Galaxy A3</td>
+                                        <td>Mobile</td>
+                                        <td class="text-center">10,000</td>
+                                        <td class="text-center">30</td>
+                                        <td class="text-center"><i class="far fa-edit"></i><i
+                                                class="fas fa-trash text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>123456</td>
+                                        <td class="text-info">Samsung Galaxy A3</td>
+                                        <td>Mobile</td>
+                                        <td class="text-center">10,000</td>
+                                        <td class="text-center">30</td>
+                                        <td class="text-center"><i class="far fa-edit"></i><i
+                                                class="fas fa-trash text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>123456</td>
+                                        <td class="text-info">Samsung Galaxy A3</td>
+                                        <td>Mobile</td>
+                                        <td class="text-center">10,000</td>
+                                        <td class="text-center">30</td>
+                                        <td class="text-center"><i class="far fa-edit"></i><i
+                                                class="fas fa-trash text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>123456</td>
+                                        <td class="text-info">Samsung Galaxy A3</td>
+                                        <td>Mobile</td>
+                                        <td class="text-center">10,000</td>
+                                        <td class="text-center">30</td>
+                                        <td class="text-center"><i class="far fa-edit"></i><i
+                                                class="fas fa-trash text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>123456</td>
+                                        <td class="text-info">Samsung Galaxy A3</td>
+                                        <td>Mobile</td>
+                                        <td class="text-center">10,000</td>
+                                        <td class="text-center">30</td>
+                                        <td class="text-center"><i class="far fa-edit"></i><i
+                                                class="fas fa-trash text-danger"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>123456</td>
+                                        <td class="text-info">Samsung Galaxy A3</td>
+                                        <td>Mobile</td>
+                                        <td class="text-center">10,000</td>
+                                        <td class="text-center">30</td>
+                                        <td class="text-center"><i class="far fa-edit"></i><i
+                                                class="fas fa-trash text-danger"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-5 pr-md-0">
+                        <div class="product-right">
+                            <h4 class="product-title">Products Flow</h4>
+                            <p>Sort by Last Order <i class="ml-1 fas fa-sort-down"></i></p>
+                            <div class="row mx-1 my-3">
+                                <div class="col-3 text-center">
+                                    <div class="chart bg-info">
+                                        <img src="./inc/images/mouth_smile_PNG27.png" alt="">
+                                        <h3 class="stock">55</h3>
+                                        <p class="item">Item</p>
+                                    </div>
+                                    <span>Mobile</span>
+                                </div>
+                                <div class="col-3  text-center">
+                                    <div class="chart bg-success">
+                                        <img src="./inc/images/mouth_smile_PNG27.png" alt="">
+                                        <h3 class="stock">55</h3>
+                                        <p class="item">Item</p>
+                                    </div>
+                                    <span>Mobile</span>
+                                </div>
+                                <div class="col-3 text-center">
+                                    <div class="chart bg-danger">
+                                        <img src="./inc/images/mouth_smile_PNG27.png" alt="">
+                                        <h3 class="stock">55</h3>
+                                        <p class="item">Item</p>
+                                    </div>
+                                    <span>Mobile</span>
+                                </div>
+                                <div class="col-3 text-center">
+                                    <div class="chart bg-warning">
+                                        <img src="./inc/images/mouth_smile_PNG27.png" alt="">
+                                        <h3 class="stock">55</h3>
+                                        <p class="item">Item</p>
+                                    </div>
+                                    <span>Mobile</span>
+                                </div>
+                            </div>
+                            <table class="table table-sm table-striped table-borderless order-table">
+                                <thead>
+                                    <tr>
+                                        <td></td>
+                                        <td>ID Order</td>
+                                        <td class="text-right">Actions</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-body">
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Store123A</td>
+                                        <td class="text-right"><span>Print </span> <span>Invoice</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Store123A</td>
+                                        <td class="text-right"><span>Print </span> <span>Invoice</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Store123A</td>
+                                        <td class="text-right"><span>Print </span> <span>Invoice</span></td>
+                                    </tr>
+                                </tbody>
+                                <tfoot class="table-footer  text-success">
+                                    <tr>
+                                        <td colspan="4" class="text-right">Show More</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 right-side">
+                <div class="product-reviews">
+                    <h3 class="title">Product Review</h3>
+                    <div class="review">
+                        <h6>Product, <span>Category Name</span></h6>
+                        <i class="text-warning fas fa-star"></i><i class="text-warning fas fa-star"></i><i
+                            class="text-warning fas fa-star"></i><i class="text-warning fas fa-star"></i><i
+                            class="fas fa-star"></i><span class="total-review">(863)</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ad?</p>
+                        <div class="review-hits">
+                            <div class="like"><i class="fas fa-thumbs-up"></i> 56 Likes</div>
+                            <div class="dislike"><i class="fas fa-thumbs-down"></i>10 Dislikes</div>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <h6>Product, <span>Category Name</span></h6>
+                        <i class="text-warning fas fa-star"></i><i class="text-warning fas fa-star"></i><i
+                            class="text-warning fas fa-star"></i><i class="text-warning fas fa-star"></i><i
+                            class="fas fa-star"></i><span class="total-review">(863)</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ad?</p>
+                        <div class="review-hits">
+                            <div class="like"><i class="fas fa-thumbs-up"></i> 56 Likes</div>
+                            <div class="dislike"><i class="fas fa-thumbs-down"></i>10 Dislikes</div>
+                        </div>
+                    </div>
+                    <p class="text-center text-success">Show more</p>
+                </div>
+                <div class="support">
+                    <h3 class="title">Support</h3>
+                    <div class="info">
+                        <img src="./inc/images/pngegg.png" alt="support">
+                        <p class="text-success">Phone : +8801555-000000 <br>
+                            Email : support@example.com
+                        </p>
+                    </div>
+                    <div class="support-item">
+                        <h6>ID-748345, <span>Sunday 7:30 pm</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="support-reply">
+                            <input type="text" placeholder="Reply" class="form-control form-control-sm"><span><i
+                                    class="fa fa-trash"></i>
+                                Delete</span>
+                        </div>
+                    </div>
+                    <div class="support-item">
+                        <h6>ID-748345, <span>Sunday 7:30 pm</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="support-reply">
+                            <input type="text" placeholder="Reply" class="form-control form-control-sm"><span><i
+                                    class="fa fa-trash"></i>
+                                Delete</span>
+                        </div>
+                    </div>
+                    <div class="support-item mb-2">
+                        <h6>ID-748345, <span>Sunday 7:30 pm</span></h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="support-reply">
+                            <input type="text" placeholder="Reply" class="form-control form-control-sm"><span><i
+                                    class="fa fa-trash"></i>
+                                Delete</span>
+                        </div>
+                    </div>
+                    <p class="text-center text-success mb-0">Live Chat</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
